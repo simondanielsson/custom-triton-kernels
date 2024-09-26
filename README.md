@@ -13,6 +13,7 @@ Project is structured as follows:
 ├── tests
 │   ├── __init__.py
 │   └── dropout_test.py
+│   └── softmax_test.py
 │   └── ...
 
 ```
