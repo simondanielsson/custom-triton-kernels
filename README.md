@@ -22,7 +22,12 @@ Currently supported kernels:
 - Softmax
 - Dropout
 
-More to be implemented.
+More to be implemented. Coming up:
+
+- [] Block-based fused softmax
+- [] Layer norm
+- [] Matrix multiplication
+- [] Fused attention
 
 ## Testing kernel correctness
 
