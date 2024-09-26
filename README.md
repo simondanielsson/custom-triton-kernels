@@ -4,13 +4,15 @@ Project is structured as follows:
 
 ```bash
 .
-├── kernels
-│   ├── dropout.py
-│   └── softmax.py
-│   └── ...
+├── src
+│   └── kernels
+│       ├── __init__.py
+│       ├── dropout.py
+│       └── softmax.py
+│       └── ...
 ├── tests
-│   ├── dropout.py
-│   └── softmax.py
+│   ├── __init__.py
+│   └── dropout_test.py
 │   └── ...
 
 ```
