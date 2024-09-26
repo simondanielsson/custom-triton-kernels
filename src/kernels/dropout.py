@@ -42,7 +42,7 @@ def dropout_kernel(
     tl.store(output_ptrs, output, mask=mask)
 
 
-def dropout(input: torch.tensor, p: float, seed: int | None = None):
+def dropout(input: torch.Tensor, p: float, seed: int | None = None) -> torch.Tensor:
     """Dropout layer.
 
     Args:
