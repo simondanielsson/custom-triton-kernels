@@ -21,9 +21,11 @@ Currently supported kernels:
 
 - Softmax
 - Dropout
+- Vector addition
 
 More to be implemented. Coming up:
 
+- [] Matrix addition
 - [] Block-based fused softmax
 - [] Layer norm
 - [] Matrix multiplication
