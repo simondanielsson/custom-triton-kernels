@@ -1,6 +1,9 @@
+"""Test dropout kernel."""
+
 import pytest
-from kernels.dropout import dropout
 import torch
+
+from src import dropout
 
 
 @pytest.fixture

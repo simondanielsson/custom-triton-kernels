@@ -54,7 +54,7 @@ def softmax_kernel(
     tl.store(output_ptr + output_offsets, result, mask=mask)
 
 
-def softmax_triton(input: torch.Tensor) -> torch.Tensor:
+def softmax(input: torch.Tensor) -> torch.Tensor:
     output = torch.empty_like(input)
 
     n_rows, n_cols = input.shape
