@@ -1,4 +1,5 @@
-from kernels.dropout import dropout
-from kernels.softmax import softmax
+from src.kernels.dropout import dropout
+from src.kernels.softmax import softmax
+from src.kernels.add import add_vector
 
-__all__ = ["dropout", "softmax"]
+__all__ = ["dropout", "softmax", "add_vector"]
